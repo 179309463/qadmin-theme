@@ -1,0 +1,27 @@
+
+.vertical-align-middle,.vertical-align:before {
+	vertical-align: middle
+}
+
+.vertical-align:before {
+	content: ""
+}
+
+.vertical-align {
+	font-size: 0
+}
+
+.vertical-align:before {
+	display: inline-block;
+	height: 100%
+}
+
+.vertical-align-bottom,.vertical-align-middle {
+	display: inline-block;
+	max-width: 100%;
+	font-size: 1rem
+}
+
+.vertical-align-bottom {
+	vertical-align: bottom
+}

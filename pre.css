@@ -1,0 +1,63 @@
+pre {
+	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+}
+pre {
+	font-size: 1em
+}
+
+pre {
+	display: block;
+	font-size: 90%
+}
+
+
+.pre-scrollable {
+	max-height: 340px;
+	overflow-y: scroll
+}
+
+
+pre {
+	padding: 10.5px;
+	color: inherit;
+	border: 1px solid #f3efee;
+	border-radius: .215rem
+}
+
+
+pre {
+	overflow: auto
+}
+
+@media print {
+	pre {
+		page-break-inside: avoid
+	}
+
+	pre {
+		white-space: pre-wrap!important
+	}
+
+	pre {
+		border: 1px solid #76838f
+	}
+}
+
+pre {
+	-ms-overflow-style: scrollbar
+}
+
+
+pre {
+	text-rendering: auto;
+	-webkit-font-smoothing: initial
+}
+
+pre {
+	margin-top: 0;
+	margin-bottom: 1rem
+}
+
+pre {
+	margin-bottom: 1rem
+}
