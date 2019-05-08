@@ -1,7 +1,9 @@
 
 
 .hidden-float::after {
-	content: ""
+	content: "";
+	display: block;
+	clear: both;	
 }
 
 @media (min-width:768px) {
@@ -10,10 +12,6 @@
 	}
 }
 
-.hidden-float::after {
-	display: block;
-	clear: both
-}
 
 @media (max-width:767.98px) {
 	.hidden-float {

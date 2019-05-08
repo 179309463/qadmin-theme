@@ -1,0 +1,28 @@
+
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #997b71
+}
+
+.nav-pills .nav-link {
+	border-radius: .215rem
+}
+
+.nav-pills .nav-link {
+	-webkit-transition: border .2s linear 0s,color .2s linear 0s,background-color .2s linear 0s;
+	transition: border .2s linear 0s,color .2s linear 0s,background-color .2s linear 0s
+}
+
+.nav-pills-rounded .nav-link {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 1000px
+}
+.nav-pills>li>a>.badge-pill {
+	margin-left: 3px
+}
+
+

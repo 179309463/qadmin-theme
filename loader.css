@@ -1,9 +1,9 @@
 
-.form-control-wrap,.loader {
-	position: relative
-}
+
 
 .loader {
+	position: relative;
+	display: inline-block;
 	margin: 0 auto;
 	font-size: 40px;
 	text-indent: -9999em;
@@ -27,32 +27,30 @@
 	-webkit-animation: default-grill 1s infinite ease-in-out -.16s;
 	animation: default-grill 1s infinite ease-in-out -.16s
 }
-
-.loader-grill:after,.loader-grill:before {
+.loader-grill:before {
 	top: 0;
 	width: 100%;
 	height: 100%;
 	-webkit-animation: default-grill 1s infinite ease-in-out;
-	animation: default-grill 1s infinite ease-in-out
-}
-
-.loader-circle,.loader-round-circle,.loader-tadpole {
-	width: 1em;
-	height: 1em;
-	border-radius: 50%
-}
-
-.loader-grill:before {
+	animation: default-grill 1s infinite ease-in-out;
 	left: -.375em;
 	-webkit-animation-delay: -.32s;
 	animation-delay: -.32s
 }
 
 .loader-grill:after {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: default-grill 1s infinite ease-in-out;
+	animation: default-grill 1s infinite ease-in-out;
 	left: .375em
 }
 
 .loader-circle {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
 	border-top: .125em solid rgba(163,175,183,.5);
 	border-right: .125em solid rgba(163,175,183,.5);
 	border-bottom: .125em solid rgba(163,175,183,.5);
@@ -62,12 +60,18 @@
 }
 
 .loader-round-circle {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
 	font-size: 10px;
 	-webkit-animation: loader-round-circle 1.3s infinite linear;
 	animation: loader-round-circle 1.3s infinite linear
 }
 
 .loader-tadpole {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
 	-webkit-animation: loader-tadpole 1.7s infinite ease;
 	animation: loader-tadpole 1.7s infinite ease
 }
@@ -81,7 +85,7 @@
 	animation: loader-ellipsis 1.8s infinite ease-in-out both -.16s
 }
 
-.loader-ellipsis:after,.loader-ellipsis:before {
+.loader-ellipsis:before {
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -89,16 +93,21 @@
 	content: "";
 	border-radius: 50%;
 	-webkit-animation: loader-ellipsis 1.8s infinite ease-in-out both;
-	animation: loader-ellipsis 1.8s infinite ease-in-out both
-}
-
-.loader-ellipsis:before {
+	animation: loader-ellipsis 1.8s infinite ease-in-out both;
 	left: -.875em;
 	-webkit-animation-delay: -.32s;
 	animation-delay: -.32s
 }
 
 .loader-ellipsis:after {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	border-radius: 50%;
+	-webkit-animation: loader-ellipsis 1.8s infinite ease-in-out both;
+	animation: loader-ellipsis 1.8s infinite ease-in-out both;
 	left: .875em
 }
 
@@ -109,7 +118,7 @@
 	animation: loader-dot-rotate 2s infinite linear
 }
 
-.loader-dot:after,.loader-dot:before {
+.loader-dot:before {
 	top: 0;
 	left: 0;
 	width: 60%;
@@ -120,26 +129,31 @@
 }
 
 .loader-dot:after {
+	top: 0;
+	left: 0;
+	width: 60%;
+	height: 60%;
+	border-radius: 100%;
+	-webkit-animation: loader-dot-bounce 2s infinite ease-in-out;
+	animation: loader-dot-bounce 2s infinite ease-in-out
 	top: auto;
 	bottom: 0;
 	-webkit-animation-delay: -1s;
 	animation-delay: -1s
 }
 
-.loader-bounce:after,.loader-bounce:before,.loader-cube:after,.loader-cube:before {
-	top: 0;
-	background: #a3afb7;
-	position: absolute;
-	left: 0;
-	content: ""
-}
 
 .loader-bounce {
 	width: 1.5em;
 	height: 1.5em
 }
 
-.loader-bounce:after,.loader-bounce:before {
+.loader-bounce:before {
+	top: 0;
+	background: #a3afb7;
+	position: absolute;
+	left: 0;
+	content: "";
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -149,6 +163,17 @@
 }
 
 .loader-bounce:after {
+	top: 0;
+	background: #a3afb7;
+	position: absolute;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: .6;
+	-webkit-animation: loader-bounce 2s infinite ease-in-out;
+	animation: loader-bounce 2s infinite ease-in-out;
 	-webkit-animation-delay: -1s;
 	animation-delay: -1s
 }
@@ -157,15 +182,27 @@
 	width: 2em;
 	height: 2em
 }
-
-.loader-cube:after,.loader-cube:before {
+.loader-cube:before {
+	top: 0;
+	background: #a3afb7;
+	position: absolute;
+	left: 0;
+	content: "";
 	width: 25%;
 	height: 25%;
 	-webkit-animation: loader-cube 2s infinite ease-in-out;
 	animation: loader-cube 2s infinite ease-in-out
 }
-
 .loader-cube:after {
+	top: 0;
+	background: #a3afb7;
+	position: absolute;
+	left: 0;
+	content: "";
+	width: 25%;
+	height: 25%;
+	-webkit-animation: loader-cube 2s infinite ease-in-out;
+	animation: loader-cube 2s infinite ease-in-out;
 	-webkit-animation-delay: -1s;
 	animation-delay: -1s
 }
@@ -185,15 +222,12 @@
 	transform: rotate(45deg) translateZ(0)
 }
 
-.loader-folding-cube:after,.loader-folding-cube:before {
+.loader-folding-cube:before {
 	position: absolute;
 	width: 0;
 	height: 0;
 	content: "";
-	background: #a3afb7
-}
-
-.loader-folding-cube:before {
+	background: #a3afb7;
 	bottom: 50%;
 	left: 0;
 	-webkit-animation: loader-folding-cube-before 2.4s infinite ease-in-out;
@@ -203,6 +237,11 @@
 }
 
 .loader-folding-cube:after {
+	position: absolute;
+	width: 0;
+	height: 0;
+	content: "";
+	background: #a3afb7;
 	top: 50%;
 	right: 0;
 	-webkit-animation: loader-folding-cube-after 2.4s infinite ease-in-out;
@@ -217,26 +256,30 @@
 	animation: loader-cube-grid 1.2s infinite ease-in-out
 }
 
-.loader-cube-grid:after,.loader-cube-grid:before {
+.loader-cube-grid:before {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	content: ""
-}
-
-.loader-cube-grid:before {
+	content: "";
 	-webkit-animation: loader-cube-grid-before 1.2s infinite ease-in-out;
 	animation: loader-cube-grid-before 1.2s infinite ease-in-out
 }
 
 .loader-cube-grid:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
 	-webkit-animation: loader-cube-grid-after 1.2s infinite ease-in-out;
 	animation: loader-cube-grid-after 1.2s infinite ease-in-out
 }
 
-.side-panel-loading,body>.loader {
+.side-panel-loading,
+body>.loader {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -283,6 +326,7 @@
 }
 
 .loader-index>div {
+	display: inline-block;
 	width: 4px;
 	height: 25px;
 	margin: 2px;
@@ -294,12 +338,14 @@
 	animation-fill-mode: both
 }
 
-.loader-index>div:nth-child(2),.loader-index>div:nth-child(4) {
+.loader-index>div:nth-child(2),
+.loader-index>div:nth-child(4) {
 	-webkit-animation-delay: -.6s!important;
 	animation-delay: -.6s!important
 }
 
-.loader-index>div:nth-child(1),.loader-index>div:nth-child(5) {
+.loader-index>div:nth-child(1),
+.loader-index>div:nth-child(5) {
 	-webkit-animation-delay: -.4s!important;
 	animation-delay: -.4s!important
 }

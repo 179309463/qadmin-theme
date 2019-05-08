@@ -2,6 +2,12 @@
 	display: none!important
 }
 
+.clearfix::after {
+	display: block;
+	clear: both;
+	content: ""
+}
+
 .inline {
 	display: inline!important
 }

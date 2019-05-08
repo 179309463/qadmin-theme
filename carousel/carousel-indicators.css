@@ -1,0 +1,133 @@
+
+.carousel-indicators .active {
+	background-color: #fff
+}
+
+.carousel-indicators {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox
+}
+
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	z-index: 15;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none
+}
+
+.carousel-indicators li::after,.carousel-indicators li::before {
+	left: 0;
+	display: inline-block;
+	height: 10px;
+	content: ""
+}
+
+.carousel-indicators li {
+	position: relative;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px
+}
+
+.carousel-indicators li::before {
+	position: absolute;
+	top: -10px;
+	width: 100%
+}
+
+.carousel-indicators li::after {
+	position: absolute;
+	bottom: -10px;
+	width: 100%
+}
+
+.carousel-indicators-fall li:after {
+	content: ""
+}
+
+.carousel-indicators li {
+	cursor: pointer
+}
+
+.carousel-indicators li {
+	background-color: rgba(255,255,255,.3);
+	border-radius: 10px
+}
+
+.carousel-indicators-scaleup li {
+	border: none;
+	-webkit-transition: background-color .3s ease 0s,-webkit-transform .3s ease 0s;
+	transition: background-color .3s ease 0s,-webkit-transform .3s ease 0s;
+	transition: transform .3s ease 0s,background-color .3s ease 0s;
+	transition: transform .3s ease 0s,background-color .3s ease 0s,-webkit-transform .3s ease 0s
+}
+
+.carousel-indicators-scaleup .active {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5)
+}
+
+.carousel-indicators-fillin li {
+	background-color: transparent;
+	box-shadow: 0 0 0 2px #fff inset;
+	-webkit-transition: box-shadow .3s ease 0s;
+	transition: box-shadow .3s ease 0s
+}
+
+.carousel-indicators-fillin .active {
+	box-shadow: 0 0 0 8px #fff inset
+}
+
+.carousel-indicators-fall li {
+	position: relative;
+	-webkit-transition: background-color .3s ease 0s,-webkit-transform .3s ease 0s;
+	transition: background-color .3s ease 0s,-webkit-transform .3s ease 0s;
+	transition: transform .3s ease 0s,background-color .3s ease 0s;
+	transition: transform .3s ease 0s,background-color .3s ease 0s,-webkit-transform .3s ease 0s
+}
+
+.carousel-indicators-fall li:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease 0s,visibility 0s ease .3s;
+	transition: opacity .3s ease 0s,visibility 0s ease .3s;
+	-webkit-transform: translate(0,-200%);
+	transform: translate(0,-200%)
+}
+
+.carousel-indicators-fall .active {
+	background-color: transparent;
+	-webkit-transform: translate(0,200%);
+	transform: translate(0,200%)
+}
+
+.carousel-indicators-fall .active:after {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: opacity .3s ease 0s;
+	transition: opacity .3s ease 0s
+}

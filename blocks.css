@@ -1,11 +1,14 @@
-.blocks,[class*=blocks-] {
+.blocks,
+[class*=blocks-] {
 	font-size: 0;
 	padding: 0;
 	margin: 0 -.7145rem;
 	list-style: none
 }
 
-.blocks>.block,[class*=blocks-]>.block,[class*=blocks-]>li {
+.blocks>.block,
+[class*=blocks-]>.block,
+[class*=blocks-]>li {
 	display: inline-block;
 	font-size: 1rem;
 	vertical-align: top;
@@ -18,7 +21,10 @@
 	margin: 0
 }
 
-.blocks.no-space>.block,.blocks.no-space>li,[class*=blocks-].no-space>.block,[class*=blocks-].no-space>li {
+.blocks.no-space>.block,
+.blocks.no-space>li,
+[class*=blocks-].no-space>.block,
+[class*=blocks-].no-space>li {
 	padding: 0;
 	margin: 0
 }

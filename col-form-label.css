@@ -1,8 +1,6 @@
 
 .col-form-label {
-	margin-bottom: 0
-}
-.col-form-label {
+	margin-bottom: 0;
 	padding-top: -webkit-calc(.286rem + 1px);
 	padding-top: calc(.286rem + 1px);
 	padding-bottom: -webkit-calc(.286rem + 1px);

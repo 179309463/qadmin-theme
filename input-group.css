@@ -244,3 +244,8 @@
 .input-group-sm .input-group-append,.input-group-sm .input-group-prepend {
 	line-height: 1.5
 }
+
+.input-group-append .btn~.dropdown-toggle:after,
+.input-group-prepend .btn~.dropdown-toggle:after {
+	margin-left: 0
+}

@@ -1,4 +1,9 @@
 
+
+.form-group {
+	margin-bottom: 1.429rem
+}
+
 .form-group .col-form-label {
 	padding-top: .286rem;
 	padding-bottom: .286rem
@@ -15,11 +20,6 @@
 	padding-bottom: .215rem;
 	font-size: .858rem
 }
-
-.form-group {
-	margin-bottom: 1.429rem
-}
-
 .form-group.has-feedback.no-label .form-control-feedback {
 	top: 0
 }

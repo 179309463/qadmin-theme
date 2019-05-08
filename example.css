@@ -1,27 +1,24 @@
-.example::after,.example:before {
+
+.example {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+.example::after {
+	display: block;
+	clear: both;
 	content: ""
 }
 
+.example:before {
+	display: table;
+	content: ""
+}
 .example-wrap {
 	margin-bottom: 50px
 }
 
 .example-wrap .example-wrap {
 	margin-bottom: 0
-}
-
-.example {
-	margin-top: 20px;
-	margin-bottom: 20px
-}
-
-.example::after {
-	display: block;
-	clear: both
-}
-
-.example:before {
-	display: table
 }
 
 .example-title {

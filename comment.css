@@ -31,7 +31,9 @@
 	padding-bottom: 0
 }
 
-.comment-author,.comment-author:focus,.comment-author:hover {
+.comment-author,
+.comment-author:focus,
+.comment-author:hover {
 	color: #37474f
 }
 

@@ -1,22 +1,16 @@
-
+.collapsing {
+	overflow: hidden;
+	height: 0;
+	-webkit-transition: height .35s ease;
+    transition: height .35s ease;
+    position: relative;
+}
 .collapse:not(.show) {
 	display: none
 }
-
-.collapsing {
-	height: 0;
-	-webkit-transition: height .35s ease;
-	transition: height .35s ease
-}
-
 @media screen and (prefers-reduced-motion:reduce) {
 	.collapsing {
 		-webkit-transition: none;
 		transition: none
 	}
-}
-
-
-.collapsing {
-	position: relative
 }

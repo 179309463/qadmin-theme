@@ -1,0 +1,27 @@
+[class*=animation-] {
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out
+}
+
+.animation-hover:not(:hover),
+.animation-hover:not(:hover) [class*=animation-],
+.touch .animation-hover:not(.hover),
+.touch .animation-hover:not(.hover) [class*=animation-] {
+	-webkit-animation-name: none;
+	animation-name: none
+}
+
+.animation-reverse {
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	animation-direction: reverse
+}
+
+.animation-repeat {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite
+}
+
+

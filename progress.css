@@ -21,8 +21,10 @@
 	text-align: center;
 	background-color: #997b71;
 	-webkit-transition: width .6s ease;
-	transition: width .6s ease
+	transition: width .6s ease;
+	color: #fff
 }
+
 
 .progress-bar-striped,.progress-striped .progress-bar {
 	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);

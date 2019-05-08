@@ -1,3 +1,9 @@
+@media screen and (prefers-reduced-motion:reduce) {
+	.form-control {
+		-webkit-transition: none;
+		transition: none
+	}
+}
 .form-control {
 	box-sizing: border-box
 }
@@ -199,4 +205,8 @@ select.form-control-sm:not([size]):not([multiple]) {
 
 textarea.form-control.no-resize {
 	resize: none
+}
+
+.form-control-wrap {
+	position: relative
 }

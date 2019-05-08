@@ -1,27 +1,44 @@
 .text-monospace {
 	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
 }
-.text-truncate {
-	overflow: hidden
-}
-
 
 .text-justify {
 	text-align: justify!important
 }
-
-.text-nowrap {
-	white-space: nowrap!important
+.text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0
 }
-
 .text-truncate {
+    overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
 }
 
 .text-break {
-	white-space: normal
+	white-space: normal;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word
 }
+.text-nowrap {
+	white-space: nowrap!important
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width:480px) {
 	.text-sm-left {
@@ -95,6 +112,10 @@
 }
 
 
+
+
+
+
 .text-lowercase {
 	text-transform: lowercase!important
 }
@@ -106,6 +127,10 @@
 .text-capitalize {
 	text-transform: capitalize!important
 }
+
+
+
+
 
 
 .text-white {
@@ -192,13 +217,6 @@ a.text-dark:focus,a.text-dark:hover {
 	color: rgba(255,255,255,.5)!important
 }
 
-.text-hide {
-	font: 0/0 a;
-	color: transparent;
-	text-shadow: none;
-	background-color: transparent;
-	border: 0
-}
 
 
 a.text-body {
@@ -244,12 +262,14 @@ a.text-like.active,a.text-like:focus,a.text-like:hover {
 
 
 
-.text-break {
-	-webkit-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
-	word-wrap: break-word
-}
+
+
+
+
+
+
+
+
 
 .text-top {
 	vertical-align: top!important

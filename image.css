@@ -1,20 +1,13 @@
 
-@media print {
-	img {
-		page-break-inside: avoid
-    }
-}
-img {
-	vertical-align: middle;
-	border-style: none
-}
 
-.img-fluid,.img-thumbnail {
+.img-fluid {
 	max-width: 100%;
 	height: auto
 }
 
 .img-thumbnail {
+	max-width: 100%;
+	height: auto;	
 	padding: .25rem;
 	background-color: #fff;
 	border: 1px solid #ddd;
