@@ -31,41 +31,50 @@
 	opacity: 1
 }
 
-.btn-animate-side.btn-xs,.btn-group-xs>.btn-animate-side.btn {
+.btn-animate-side.btn-xs,
+.btn-group-xs>.btn-animate-side.btn {
 	padding: .215rem 1rem
 }
 
-.btn-animate-side.btn-xs span>.icon,.btn-group-xs>.btn-animate-side.btn span>.icon {
+.btn-animate-side.btn-xs span>.icon,
+.btn-group-xs>.btn-animate-side.btn span>.icon {
 	left: 5px
 }
 
-.btn-animate-side.btn-xs:hover span,.btn-group-xs>.btn-animate-side.btn:hover span {
+.btn-animate-side.btn-xs:hover span,
+.btn-group-xs>.btn-animate-side.btn:hover span {
 	-webkit-transform: translate(8px,0);
 	transform: translate(8px,0)
 }
 
-.btn-animate-side.btn-sm,.btn-group-sm>.btn-animate-side.btn {
+.btn-animate-side.btn-sm,
+.btn-group-sm>.btn-animate-side.btn {
 	padding: .429rem 1.572rem
 }
 
-.btn-animate-side.btn-sm span>.icon,.btn-group-sm>.btn-animate-side.btn span>.icon {
+.btn-animate-side.btn-sm span>.icon,
+.btn-group-sm>.btn-animate-side.btn span>.icon {
 	left: 3px
 }
 
-.btn-animate-side.btn-sm:hover span,.btn-group-sm>.btn-animate-side.btn:hover span {
+.btn-animate-side.btn-sm:hover span,
+.btn-group-sm>.btn-animate-side.btn:hover span {
 	-webkit-transform: translate(8px,0);
 	transform: translate(8px,0)
 }
 
-.btn-animate-side.btn-lg,.btn-group-lg>.btn-animate-side.btn {
+.btn-animate-side.btn-lg,
+.btn-group-lg>.btn-animate-side.btn {
 	padding: .715rem 2.358rem
 }
 
-.btn-animate-side.btn-lg span>.icon,.btn-group-lg>.btn-animate-side.btn span>.icon {
+.btn-animate-side.btn-lg span>.icon,
+.btn-group-lg>.btn-animate-side.btn span>.icon {
 	left: -6px
 }
 
-.btn-animate-side.btn-lg:hover span,.btn-group-lg>.btn-animate-side.btn:hover span {
+.btn-animate-side.btn-lg:hover span,
+.btn-group-lg>.btn-animate-side.btn:hover span {
 	-webkit-transform: translate(14px,0);
 	transform: translate(14px,0)
 }

@@ -22,8 +22,8 @@
 }
 @media (max-width:767.98px) {
 
-    .navbar>.container-fluid .navbar-header,
-    .navbar>.containers .navbar-header {
+  .navbar>.container-fluid .navbar-header,
+  .navbar>.containers .navbar-header {
 		-webkit-box-flex: 1;
 		-webkit-flex: 1 1 auto;
 		-ms-flex: 1 1 auto;

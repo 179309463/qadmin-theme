@@ -1,4 +1,61 @@
 
+.navbar-expand {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start
+}
+
+.navbar-expand>.container,
+.navbar-expand>.container-fluid {
+	padding-right: 0;
+	padding-left: 0
+}
+
+.navbar-expand .navbar-nav {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row
+}
+
+
+.navbar-expand .navbar-nav .dropdown-menu {
+	position: absolute
+}
+
+.navbar-expand .navbar-nav .nav-link {
+	padding-right: .5rem;
+	padding-left: .5rem
+}
+
+.navbar-expand>.container,
+.navbar-expand>.container-fluid {
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap
+}
+
+.navbar-expand .navbar-collapse {
+	display: -webkit-box!important;
+	display: -webkit-flex!important;
+	display: -ms-flexbox!important;
+	display: flex!important;
+	-webkit-flex-basis: auto;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto
+}
+
+.navbar-expand .navbar-toggler {
+	display: none
+}
+
 @media (max-width:479.98px) {
 	.navbar-expand-sm>.container,
 	.navbar-expand-sm>.container-fluid {
@@ -304,61 +361,4 @@
 	.navbar-expand-xxl .navbar-toggler {
 		display: none
 	}
-}
-
-.navbar-expand {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-flow: row nowrap;
-	-ms-flex-flow: row nowrap;
-	flex-flow: row nowrap;
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	-ms-flex-pack: start;
-	justify-content: flex-start
-}
-
-.navbar-expand>.container,
-.navbar-expand>.container-fluid {
-	padding-right: 0;
-	padding-left: 0
-}
-
-.navbar-expand .navbar-nav {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row
-}
-
-
-.navbar-expand .navbar-nav .dropdown-menu {
-	position: absolute
-}
-
-.navbar-expand .navbar-nav .nav-link {
-	padding-right: .5rem;
-	padding-left: .5rem
-}
-
-.navbar-expand>.container,
-.navbar-expand>.container-fluid {
-	-webkit-flex-wrap: nowrap;
-	-ms-flex-wrap: nowrap;
-	flex-wrap: nowrap
-}
-
-.navbar-expand .navbar-collapse {
-	display: -webkit-box!important;
-	display: -webkit-flex!important;
-	display: -ms-flexbox!important;
-	display: flex!important;
-	-webkit-flex-basis: auto;
-	-ms-flex-preferred-size: auto;
-	flex-basis: auto
-}
-
-.navbar-expand .navbar-toggler {
-	display: none
 }

@@ -5,14 +5,20 @@
 	border-color: rgba(255,255,255,.2)
 }
 
-.card-inverse .card-blockquote,.card-inverse .card-footer,.card-inverse .card-header,.card-inverse .card-title {
+.card-inverse .card-blockquote,
+.card-inverse .card-footer,
+.card-inverse .card-header,
+.card-inverse .card-title {
 	color: #fff
 }
 
-.card-inverse .card-blockquote>footer,.card-inverse .card-link,.card-inverse .card-text {
+.card-inverse .card-blockquote>footer,
+.card-inverse .card-link,
+.card-inverse .card-text {
 	color: rgba(255,255,255,.65)
 }
 
-.card-inverse .card-link:focus,.card-inverse .card-link:hover {
+.card-inverse .card-link:focus,
+.card-inverse .card-link:hover {
 	color: #fff
 }

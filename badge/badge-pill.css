@@ -15,3 +15,13 @@ a .badge-pill:hover {
 	text-decoration: none;
 	cursor: pointer
 }
+
+.btn .badge-pill {
+	top: 0
+}
+
+.btn-group-xs>.btn .badge-pill,
+.btn-xs .badge-pill {
+	top: 0;
+	padding: 1px 5px
+}

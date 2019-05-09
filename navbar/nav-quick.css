@@ -34,28 +34,3 @@
 	right: 0
 }
 
-.nav-quick-sm .nav-link {
-	padding: .858rem 0
-}
-
-.nav-quick-sm .nav-link .icon {
-	font-size: 1.7145rem
-}
-
-.nav-quick-lg .nav-link {
-	padding: 1.572rem 0
-}
-
-.nav-quick-lg .nav-link .icon {
-	font-size: 2.8575rem
-}
-
-.nav-quick-bordered {
-	border-top: 1px solid #e4eaec;
-	border-left: 1px solid #e4eaec
-}
-
-.nav-quick-bordered .nav-item {
-	border-right: 1px solid #e4eaec;
-	border-bottom: 1px solid #e4eaec
-}

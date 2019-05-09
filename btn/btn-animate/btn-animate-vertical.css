@@ -19,16 +19,19 @@
 	transform: translate(0,150%)
 }
 
-.btn-animate-vertical.btn-xs span>.icon,.btn-group-xs>.btn-animate-vertical.btn span>.icon {
+.btn-animate-vertical.btn-xs span>.icon,
+.btn-group-xs>.btn-animate-vertical.btn span>.icon {
 	top: -5px;
 	font-size: 1.286rem
 }
 
-.btn-animate-vertical.btn-sm span>.icon,.btn-group-sm>.btn-animate-vertical.btn span>.icon {
+.btn-animate-vertical.btn-sm span>.icon,
+.btn-group-sm>.btn-animate-vertical.btn span>.icon {
 	top: -3px;
 	font-size: 1.5rem
 }
 
-.btn-animate-vertical.btn-lg span>.icon,.btn-group-lg>.btn-animate-vertical.btn span>.icon {
+.btn-animate-vertical.btn-lg span>.icon,
+.btn-group-lg>.btn-animate-vertical.btn span>.icon {
 	font-size: 2.643rem
 }
