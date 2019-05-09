@@ -1,0 +1,17 @@
+
+.navbar-btn {
+	margin-top: .9995rem;
+	margin-bottom: .9995rem
+}
+
+.btn-group-sm>.navbar-btn.btn,
+.navbar-btn.btn-sm {
+	margin-top: 1.213rem;
+	margin-bottom: 1.213rem
+}
+
+.btn-group-xs>.navbar-btn.btn,
+.navbar-btn.btn-xs {
+	margin-top: 1.357rem;
+	margin-bottom: 1.357rem
+}
