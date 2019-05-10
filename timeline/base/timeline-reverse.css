@@ -1,5 +1,3 @@
-
-
 .timeline-reverse .timeline-dot {
 	right: auto;
 	left: 0;
@@ -10,17 +8,6 @@
 	margin-left: -7px
 }
 
-.timeline-reverse .timeline-info {
-	float: left
-}
-
-
-.timeline-reverse+.timeline-reverse {
-	margin-top: 0
-}
-.timeline-icon .timeline-reverse .timeline-dot {
-	margin-left: -20px
-}
 .timeline-reverse .timeline-footer {
 	right: auto;
 	left: 0;
@@ -28,14 +15,28 @@
 	margin-left: 55px
 }
 
-@media (max-width:767.98px) {
+.timeline-reverse .timeline-info {
+	float: left
+}
 
-    .timeline-item.timeline-reverse {
+.timeline-reverse+.timeline-reverse {
+	margin-top: 0
+}
+
+.timeline-reverse.timeline-item {
+	float: right;
+	padding-right: 0;
+	padding-left: 40px;
+	clear: right
+}
+
+@media (max-width:767.98px) {
+	.timeline-reverse.timeline-item {
 		float: none;
 		width: 100%;
 		padding-right: 0;
 		padding-left: 40px;
 		margin-top: 0;
 		margin-bottom: 60px
-    }
+  }
 }

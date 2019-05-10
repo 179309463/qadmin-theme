@@ -1,10 +1,9 @@
-
-/*dark*/
 .alert-dark {
 	background-color: #d6d8d9;
-	border-color: #c6c8ca
+	border-color: #c6c8ca;
+	color: #1b1e21;
 }
-.alert-dark,
+
 .alert-dark .close,
 .alert-dark .close:focus,
 .alert-dark .close:hover {

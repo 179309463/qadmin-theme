@@ -8,7 +8,8 @@
 	padding-left: 0
 }
 
-.panel-group-simple .panel-title:after,.panel-group-simple .panel-title:before {
+.panel-group-simple .panel-title:after,
+.panel-group-simple .panel-title:before {
 	right: 5px
 }
 
